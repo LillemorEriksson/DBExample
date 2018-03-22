@@ -1,0 +1,15 @@
+﻿@model DBExample.Models.Student
+@{
+    ViewBag.Title = "EditStud";
+}
+
+<h2>EditStud</h2>
+
+
+<form method="post">
+
+    <input type="text" value="@Model.Name" id="Namn" name="Name" />
+    <input type="text" value="@Model.Email" id="E-mail" name="Email" />
+    <input type="submit" valud="Ändral" />
+
+</form>
